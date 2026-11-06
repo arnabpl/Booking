@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Reservation Hub API Regression]" guice-stage="DEVELOPMENT" verbose="2">
+  <listeners>
+    <listener class-name="listeners.HealthCheckListener"/>
+    <listener class-name="listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Booking API Tests(failed)" verbose="2">
+    <classes>
+      <class name="booking.test.NegativeBookingTests">
+        <methods>
+          <include name="initializeTestData"/>
+          <include name="cleanupBookings"/>
+          <include name="setupRequestSpecification"/>
+          <include name="NEG_004_malformedBookingDatesAreRejected"/>
+          <include name="NEG_002_zeroBookingPriceIsRejected"/>
+          <include name="NEG_003_checkoutBeforeCheckinIsRejected"/>
+          <include name="NEG_001_negativeBookingPriceIsRejected"/>
+        </methods>
+      </class> <!-- booking.test.NegativeBookingTests -->
+      <class name="booking.test.CreateBookingTests">
+        <methods>
+          <include name="initializeTestData"/>
+          <include name="cleanupBookings"/>
+          <include name="setupRequestSpecification"/>
+          <include name="CREATE_006_missingBookingDatesIsRejected"/>
+          <include name="CREATE_004_missingFirstnameIsRejected"/>
+          <include name="CREATE_005_missingLastnameIsRejected"/>
+        </methods>
+      </class> <!-- booking.test.CreateBookingTests -->
+    </classes>
+  </test> <!-- Booking API Tests(failed) -->
+</suite> <!-- Failed suite [Reservation Hub API Regression] -->

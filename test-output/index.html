@@ -1,0 +1,1568 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Reservation_Hub_API_Regression" class="navigator-link">
+              <span class="suite-name border-failed">Reservation Hub API Regression</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Reservation_Hub_API_Regression" class="navigator-link ">
+                    <span>C:\Users\arnab\git\repository\APIAutomationBooking\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Reservation_Hub_API_Regression" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Reservation_Hub_API_Regression" class="navigator-link ">
+                    <span>11 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Reservation_Hub_API_Regression" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Reservation_Hub_API_Regression" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Reservation_Hub_API_Regression" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Reservation_Hub_API_Regression" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods, 7 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Reservation_Hub_API_Regression" class="hide-methods failed suite-Reservation_Hub_API_Regression"> (hide)</a> <!-- hide-methods failed suite-Reservation_Hub_API_Regression -->
+                      <a href="#" panel-name="suite-Reservation_Hub_API_Regression" class="show-methods failed suite-Reservation_Hub_API_Regression"> (show)</a> <!-- show-methods failed suite-Reservation_Hub_API_Regression -->
+                    </span>
+                    <div class="method-list-content failed suite-Reservation_Hub_API_Regression">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.CreateBookingTests" class="method navigator-link" hash-for-method="CREATE_004_missingFirstnameIsRejected">CREATE_004_missingFirstnameIsRejected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.CreateBookingTests" class="method navigator-link" hash-for-method="CREATE_005_missingLastnameIsRejected">CREATE_005_missingLastnameIsRejected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.CreateBookingTests" class="method navigator-link" hash-for-method="CREATE_006_missingBookingDatesIsRejected">CREATE_006_missingBookingDatesIsRejected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.NegativeBookingTests" class="method navigator-link" hash-for-method="NEG_001_negativeBookingPriceIsRejected">NEG_001_negativeBookingPriceIsRejected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.NegativeBookingTests" class="method navigator-link" hash-for-method="NEG_002_zeroBookingPriceIsRejected">NEG_002_zeroBookingPriceIsRejected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.NegativeBookingTests" class="method navigator-link" hash-for-method="NEG_003_checkoutBeforeCheckinIsRejected">NEG_003_checkoutBeforeCheckinIsRejected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.NegativeBookingTests" class="method navigator-link" hash-for-method="NEG_004_malformedBookingDatesAreRejected">NEG_004_malformedBookingDatesAreRejected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Reservation_Hub_API_Regression -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Reservation_Hub_API_Regression" class="hide-methods passed suite-Reservation_Hub_API_Regression"> (hide)</a> <!-- hide-methods passed suite-Reservation_Hub_API_Regression -->
+                      <a href="#" panel-name="suite-Reservation_Hub_API_Regression" class="show-methods passed suite-Reservation_Hub_API_Regression"> (show)</a> <!-- show-methods passed suite-Reservation_Hub_API_Regression -->
+                    </span>
+                    <div class="method-list-content passed suite-Reservation_Hub_API_Regression">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.AuthTests" class="method navigator-link" hash-for-method="AUTH_001_validCredentialsGenerateToken">AUTH_001_validCredentialsGenerateToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.AuthTests" class="method navigator-link" hash-for-method="AUTH_002_invalidCredentialsAreRejected">AUTH_002_invalidCredentialsAreRejected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.AuthTests" class="method navigator-link" hash-for-method="AUTH_003_putWithoutAuthenticationIsRejected">AUTH_003_putWithoutAuthenticationIsRejected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.AuthTests" class="method navigator-link" hash-for-method="AUTH_004_deleteWithInvalidTokenIsRejected">AUTH_004_deleteWithInvalidTokenIsRejected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.BookingContractTests" class="method navigator-link" hash-for-method="CONTRACT_001_validateCreateBookingResponse">CONTRACT_001_validateCreateBookingResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.BookingContractTests" class="method navigator-link" hash-for-method="CONTRACT_002_validateGetBookingResponse">CONTRACT_002_validateGetBookingResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.CreateBookingTests" class="method navigator-link" hash-for-method="CREATE_001_createBookingSuccessfully">CREATE_001_createBookingSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.CreateBookingTests" class="method navigator-link" hash-for-method="CREATE_002_createBookingSuccessfully">CREATE_002_createBookingSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.CreateBookingTests" class="method navigator-link" hash-for-method="CREATE_003_validateAllBookingFields">CREATE_003_validateAllBookingFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.DeleteBookingTests" class="method navigator-link" hash-for-method="DELETE_001_deleteExistingBooking">DELETE_001_deleteExistingBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.DeleteBookingTests" class="method navigator-link" hash-for-method="DELETE_002_deletedBookingCannotBeRetrieved">DELETE_002_deletedBookingCannotBeRetrieved</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.GetBookingTests" class="method navigator-link" hash-for-method="GET_001_retrieveExistingBooking">GET_001_retrieveExistingBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.GetBookingTests" class="method navigator-link" hash-for-method="GET_002_nonExistentBookingReturns404">GET_002_nonExistentBookingReturns404</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.GetBookingTests" class="method navigator-link" hash-for-method="GET_003_retrieveAllBookingIds">GET_003_retrieveAllBookingIds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.GetBookingTests" class="method navigator-link" hash-for-method="GET_004_filterByFirstnameAndLastname">GET_004_filterByFirstnameAndLastname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.UpdateBookingTests" class="method navigator-link" hash-for-method="UPDATE_001_fullUpdateUsingPUT">UPDATE_001_fullUpdateUsingPUT</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.UpdateBookingTests" class="method navigator-link" hash-for-method="UPDATE_002_partialUpdateUsingPATCH">UPDATE_002_partialUpdateUsingPATCH</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.UpdateBookingTests" class="method navigator-link" hash-for-method="UPDATE_003_putWithoutAuthenticationIsRejected">UPDATE_003_putWithoutAuthenticationIsRejected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reservation_Hub_API_Regression" title="booking.test.UpdateBookingTests" class="method navigator-link" hash-for-method="UPDATE_004_patchWithInvalidTokenIsRejected">UPDATE_004_patchWithInvalidTokenIsRejected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Reservation_Hub_API_Regression -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Reservation_Hub_API_Regression" class="panel Reservation_Hub_API_Regression">
+          <div class="suite-Reservation_Hub_API_Regression-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">booking.test.NegativeBookingTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NEG_001_negativeBookingPriceIsRejected">
+                  </a> <!-- NEG_001_negativeBookingPriceIsRejected -->
+                  <span class="method-name">NEG_001_negativeBookingPriceIsRejected</span>
+                  <div class="stack-trace">java.lang.AssertionError: Negative price should be rejected. Actual status: 200, body: {&quot;bookingid&quot;:1823,&quot;booking&quot;:{&quot;firstname&quot;:&quot;QA578412300228800&quot;,&quot;lastname&quot;:&quot;Tester&quot;,&quot;totalprice&quot;:-500,&quot;depositpaid&quot;:true,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2027-01-10&quot;,&quot;checkout&quot;:&quot;2027-01-15&quot;},&quot;additionalneeds&quot;:&quot;Breakfast&quot;}} expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at booking.test.NegativeBookingTests.assertInvalidBooking(NegativeBookingTests.java:19)
+	at booking.test.NegativeBookingTests.NEG_001_negativeBookingPriceIsRejected(NegativeBookingTests.java:44)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NEG_002_zeroBookingPriceIsRejected">
+                  </a> <!-- NEG_002_zeroBookingPriceIsRejected -->
+                  <span class="method-name">NEG_002_zeroBookingPriceIsRejected</span>
+                  <div class="stack-trace">java.lang.AssertionError: Zero price should be rejected. Actual status: 200, body: {&quot;bookingid&quot;:1841,&quot;booking&quot;:{&quot;firstname&quot;:&quot;QA578414458483200&quot;,&quot;lastname&quot;:&quot;Tester&quot;,&quot;totalprice&quot;:0,&quot;depositpaid&quot;:true,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2027-01-10&quot;,&quot;checkout&quot;:&quot;2027-01-15&quot;},&quot;additionalneeds&quot;:&quot;Breakfast&quot;}} expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at booking.test.NegativeBookingTests.assertInvalidBooking(NegativeBookingTests.java:19)
+	at booking.test.NegativeBookingTests.NEG_002_zeroBookingPriceIsRejected(NegativeBookingTests.java:55)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NEG_003_checkoutBeforeCheckinIsRejected">
+                  </a> <!-- NEG_003_checkoutBeforeCheckinIsRejected -->
+                  <span class="method-name">NEG_003_checkoutBeforeCheckinIsRejected</span>
+                  <div class="stack-trace">java.lang.AssertionError: Invalid date sequence should be rejected. Actual status: 200, body: {&quot;bookingid&quot;:1866,&quot;booking&quot;:{&quot;firstname&quot;:&quot;QA578416897647100&quot;,&quot;lastname&quot;:&quot;Tester&quot;,&quot;totalprice&quot;:500,&quot;depositpaid&quot;:true,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2027-01-15&quot;,&quot;checkout&quot;:&quot;2027-01-10&quot;},&quot;additionalneeds&quot;:&quot;Breakfast&quot;}} expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at booking.test.NegativeBookingTests.assertInvalidBooking(NegativeBookingTests.java:19)
+	at booking.test.NegativeBookingTests.NEG_003_checkoutBeforeCheckinIsRejected(NegativeBookingTests.java:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NEG_004_malformedBookingDatesAreRejected">
+                  </a> <!-- NEG_004_malformedBookingDatesAreRejected -->
+                  <span class="method-name">NEG_004_malformedBookingDatesAreRejected</span>
+                  <div class="stack-trace">java.lang.AssertionError: Malformed booking dates should be rejected. Actual status: 200, body: {&quot;bookingid&quot;:1890,&quot;booking&quot;:{&quot;firstname&quot;:&quot;QA578419562943700&quot;,&quot;lastname&quot;:&quot;Tester&quot;,&quot;totalprice&quot;:500,&quot;depositpaid&quot;:true,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;0NaN-aN-aN&quot;,&quot;checkout&quot;:&quot;2027-01-15&quot;},&quot;additionalneeds&quot;:&quot;Breakfast&quot;}} expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at booking.test.NegativeBookingTests.assertInvalidBooking(NegativeBookingTests.java:19)
+	at booking.test.NegativeBookingTests.NEG_004_malformedBookingDatesAreRejected(NegativeBookingTests.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reservation_Hub_API_Regression-class-failed -->
+          <div class="suite-Reservation_Hub_API_Regression-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">booking.test.CreateBookingTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CREATE_004_missingFirstnameIsRejected">
+                  </a> <!-- CREATE_004_missingFirstnameIsRejected -->
+                  <span class="method-name">CREATE_004_missingFirstnameIsRejected</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [400] but found [500]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at booking.test.CreateBookingTests.CREATE_004_missingFirstnameIsRejected(CreateBookingTests.java:83)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CREATE_005_missingLastnameIsRejected">
+                  </a> <!-- CREATE_005_missingLastnameIsRejected -->
+                  <span class="method-name">CREATE_005_missingLastnameIsRejected</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [400] but found [500]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at booking.test.CreateBookingTests.CREATE_005_missingLastnameIsRejected(CreateBookingTests.java:92)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CREATE_006_missingBookingDatesIsRejected">
+                  </a> <!-- CREATE_006_missingBookingDatesIsRejected -->
+                  <span class="method-name">CREATE_006_missingBookingDatesIsRejected</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [400] but found [500]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at booking.test.CreateBookingTests.CREATE_006_missingBookingDatesIsRejected(CreateBookingTests.java:101)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reservation_Hub_API_Regression-class-failed -->
+          <div class="suite-Reservation_Hub_API_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">booking.test.UpdateBookingTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UPDATE_001_fullUpdateUsingPUT">
+                  </a> <!-- UPDATE_001_fullUpdateUsingPUT -->
+                  <span class="method-name">UPDATE_001_fullUpdateUsingPUT</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UPDATE_002_partialUpdateUsingPATCH">
+                  </a> <!-- UPDATE_002_partialUpdateUsingPATCH -->
+                  <span class="method-name">UPDATE_002_partialUpdateUsingPATCH</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UPDATE_003_putWithoutAuthenticationIsRejected">
+                  </a> <!-- UPDATE_003_putWithoutAuthenticationIsRejected -->
+                  <span class="method-name">UPDATE_003_putWithoutAuthenticationIsRejected</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UPDATE_004_patchWithInvalidTokenIsRejected">
+                  </a> <!-- UPDATE_004_patchWithInvalidTokenIsRejected -->
+                  <span class="method-name">UPDATE_004_patchWithInvalidTokenIsRejected</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reservation_Hub_API_Regression-class-passed -->
+          <div class="suite-Reservation_Hub_API_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">booking.test.BookingContractTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CONTRACT_001_validateCreateBookingResponse">
+                  </a> <!-- CONTRACT_001_validateCreateBookingResponse -->
+                  <span class="method-name">CONTRACT_001_validateCreateBookingResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CONTRACT_002_validateGetBookingResponse">
+                  </a> <!-- CONTRACT_002_validateGetBookingResponse -->
+                  <span class="method-name">CONTRACT_002_validateGetBookingResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reservation_Hub_API_Regression-class-passed -->
+          <div class="suite-Reservation_Hub_API_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">booking.test.AuthTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AUTH_001_validCredentialsGenerateToken">
+                  </a> <!-- AUTH_001_validCredentialsGenerateToken -->
+                  <span class="method-name">AUTH_001_validCredentialsGenerateToken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AUTH_002_invalidCredentialsAreRejected">
+                  </a> <!-- AUTH_002_invalidCredentialsAreRejected -->
+                  <span class="method-name">AUTH_002_invalidCredentialsAreRejected</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AUTH_003_putWithoutAuthenticationIsRejected">
+                  </a> <!-- AUTH_003_putWithoutAuthenticationIsRejected -->
+                  <span class="method-name">AUTH_003_putWithoutAuthenticationIsRejected</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AUTH_004_deleteWithInvalidTokenIsRejected">
+                  </a> <!-- AUTH_004_deleteWithInvalidTokenIsRejected -->
+                  <span class="method-name">AUTH_004_deleteWithInvalidTokenIsRejected</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reservation_Hub_API_Regression-class-passed -->
+          <div class="suite-Reservation_Hub_API_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">booking.test.GetBookingTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GET_001_retrieveExistingBooking">
+                  </a> <!-- GET_001_retrieveExistingBooking -->
+                  <span class="method-name">GET_001_retrieveExistingBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GET_002_nonExistentBookingReturns404">
+                  </a> <!-- GET_002_nonExistentBookingReturns404 -->
+                  <span class="method-name">GET_002_nonExistentBookingReturns404</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GET_003_retrieveAllBookingIds">
+                  </a> <!-- GET_003_retrieveAllBookingIds -->
+                  <span class="method-name">GET_003_retrieveAllBookingIds</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GET_004_filterByFirstnameAndLastname">
+                  </a> <!-- GET_004_filterByFirstnameAndLastname -->
+                  <span class="method-name">GET_004_filterByFirstnameAndLastname</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reservation_Hub_API_Regression-class-passed -->
+          <div class="suite-Reservation_Hub_API_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">booking.test.CreateBookingTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CREATE_001_createBookingSuccessfully">
+                  </a> <!-- CREATE_001_createBookingSuccessfully -->
+                  <span class="method-name">CREATE_001_createBookingSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CREATE_002_createBookingSuccessfully">
+                  </a> <!-- CREATE_002_createBookingSuccessfully -->
+                  <span class="method-name">CREATE_002_createBookingSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CREATE_003_validateAllBookingFields">
+                  </a> <!-- CREATE_003_validateAllBookingFields -->
+                  <span class="method-name">CREATE_003_validateAllBookingFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reservation_Hub_API_Regression-class-passed -->
+          <div class="suite-Reservation_Hub_API_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">booking.test.DeleteBookingTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DELETE_001_deleteExistingBooking">
+                  </a> <!-- DELETE_001_deleteExistingBooking -->
+                  <span class="method-name">DELETE_001_deleteExistingBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DELETE_002_deletedBookingCannotBeRetrieved">
+                  </a> <!-- DELETE_002_deletedBookingCannotBeRetrieved -->
+                  <span class="method-name">DELETE_002_deletedBookingCannotBeRetrieved</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reservation_Hub_API_Regression-class-passed -->
+        </div> <!-- panel Reservation_Hub_API_Regression -->
+        <div panel-name="test-xml-Reservation_Hub_API_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\arnab\git\repository\APIAutomationBooking\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Reservation Hub API Regression&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;2&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.HealthCheckListener&quot;/&gt;
+    &lt;listener class-name=&quot;listeners.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Booking API Tests&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;booking.test.AuthTests&quot;/&gt;
+      &lt;class name=&quot;booking.test.CreateBookingTests&quot;/&gt;
+      &lt;class name=&quot;booking.test.GetBookingTests&quot;/&gt;
+      &lt;class name=&quot;booking.test.UpdateBookingTests&quot;/&gt;
+      &lt;class name=&quot;booking.test.DeleteBookingTests&quot;/&gt;
+      &lt;class name=&quot;booking.test.NegativeBookingTests&quot;/&gt;
+      &lt;class name=&quot;booking.test.BookingContractTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Booking API Tests --&gt;
+&lt;/suite&gt; &lt;!-- Reservation Hub API Regression --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Reservation_Hub_API_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Reservation Hub API Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Booking API Tests (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Reservation_Hub_API_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Reservation Hub API Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">auth</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">AUTH_001_validCredentialsGenerateToken</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">AUTH_002_invalidCredentialsAreRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">AUTH_003_putWithoutAuthenticationIsRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">AUTH_004_deleteWithInvalidTokenIsRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">contract</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">CONTRACT_001_validateCreateBookingResponse</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CONTRACT_002_validateGetBookingResponse</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">create</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">CREATE_001_createBookingSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CREATE_002_createBookingSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CREATE_003_validateAllBookingFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CREATE_004_missingFirstnameIsRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CREATE_005_missingLastnameIsRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CREATE_006_missingBookingDatesIsRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">critical</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">NEG_001_negativeBookingPriceIsRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">NEG_002_zeroBookingPriceIsRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">NEG_003_checkoutBeforeCheckinIsRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">NEG_004_malformedBookingDatesAreRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">delete</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">DELETE_001_deleteExistingBooking</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">DELETE_002_deletedBookingCannotBeRetrieved</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">functional</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">CREATE_002_createBookingSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CREATE_003_validateAllBookingFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">DELETE_002_deletedBookingCannotBeRetrieved</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GET_003_retrieveAllBookingIds</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GET_004_filterByFirstnameAndLastname</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">negative</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">AUTH_002_invalidCredentialsAreRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CREATE_004_missingFirstnameIsRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CREATE_005_missingLastnameIsRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CREATE_006_missingBookingDatesIsRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GET_002_nonExistentBookingReturns404</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">NEG_001_negativeBookingPriceIsRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">NEG_002_zeroBookingPriceIsRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">NEG_003_checkoutBeforeCheckinIsRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">NEG_004_malformedBookingDatesAreRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">read</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">GET_001_retrieveExistingBooking</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GET_002_nonExistentBookingReturns404</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GET_003_retrieveAllBookingIds</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GET_004_filterByFirstnameAndLastname</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">security</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">AUTH_003_putWithoutAuthenticationIsRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">AUTH_004_deleteWithInvalidTokenIsRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UPDATE_003_putWithoutAuthenticationIsRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UPDATE_004_patchWithInvalidTokenIsRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">AUTH_001_validCredentialsGenerateToken</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CREATE_001_createBookingSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">DELETE_001_deleteExistingBooking</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GET_001_retrieveExistingBooking</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UPDATE_001_fullUpdateUsingPUT</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UPDATE_002_partialUpdateUsingPATCH</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">update</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">UPDATE_001_fullUpdateUsingPUT</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UPDATE_002_partialUpdateUsingPATCH</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UPDATE_003_putWithoutAuthenticationIsRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UPDATE_004_patchWithInvalidTokenIsRejected</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Reservation_Hub_API_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Reservation Hub API Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Reservation_Hub_API_Regression');
+function tableData_Reservation_Hub_API_Regression() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'DELETE_002_deletedBookingCannotBeRetrieved')
+data.setCell(0, 2, 'booking.test.DeleteBookingTests')
+data.setCell(0, 3, 4546);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'UPDATE_002_partialUpdateUsingPATCH')
+data.setCell(1, 2, 'booking.test.UpdateBookingTests')
+data.setCell(1, 3, 4187);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'DELETE_001_deleteExistingBooking')
+data.setCell(2, 2, 'booking.test.DeleteBookingTests')
+data.setCell(2, 3, 3998);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'AUTH_001_validCredentialsGenerateToken')
+data.setCell(3, 2, 'booking.test.AuthTests')
+data.setCell(3, 3, 3745);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'UPDATE_001_fullUpdateUsingPUT')
+data.setCell(4, 2, 'booking.test.UpdateBookingTests')
+data.setCell(4, 3, 2916);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'UPDATE_004_patchWithInvalidTokenIsRejected')
+data.setCell(5, 2, 'booking.test.UpdateBookingTests')
+data.setCell(5, 3, 2706);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'UPDATE_003_putWithoutAuthenticationIsRejected')
+data.setCell(6, 2, 'booking.test.UpdateBookingTests')
+data.setCell(6, 3, 2559);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'GET_004_filterByFirstnameAndLastname')
+data.setCell(7, 2, 'booking.test.GetBookingTests')
+data.setCell(7, 3, 2334);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'GET_001_retrieveExistingBooking')
+data.setCell(8, 2, 'booking.test.GetBookingTests')
+data.setCell(8, 3, 2162);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'CONTRACT_002_validateGetBookingResponse')
+data.setCell(9, 2, 'booking.test.BookingContractTests')
+data.setCell(9, 3, 2039);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'AUTH_004_deleteWithInvalidTokenIsRejected')
+data.setCell(10, 2, 'booking.test.AuthTests')
+data.setCell(10, 3, 1849);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'AUTH_003_putWithoutAuthenticationIsRejected')
+data.setCell(11, 2, 'booking.test.AuthTests')
+data.setCell(11, 3, 1685);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'NEG_004_malformedBookingDatesAreRejected')
+data.setCell(12, 2, 'booking.test.NegativeBookingTests')
+data.setCell(12, 3, 1361);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'GET_003_retrieveAllBookingIds')
+data.setCell(13, 2, 'booking.test.GetBookingTests')
+data.setCell(13, 3, 1273);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'CREATE_004_missingFirstnameIsRejected')
+data.setCell(14, 2, 'booking.test.CreateBookingTests')
+data.setCell(14, 3, 1142);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'CREATE_002_createBookingSuccessfully')
+data.setCell(15, 2, 'booking.test.CreateBookingTests')
+data.setCell(15, 3, 1042);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'AUTH_002_invalidCredentialsAreRejected')
+data.setCell(16, 2, 'booking.test.AuthTests')
+data.setCell(16, 3, 1002);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'GET_002_nonExistentBookingReturns404')
+data.setCell(17, 2, 'booking.test.GetBookingTests')
+data.setCell(17, 3, 984);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'CONTRACT_001_validateCreateBookingResponse')
+data.setCell(18, 2, 'booking.test.BookingContractTests')
+data.setCell(18, 3, 941);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'CREATE_005_missingLastnameIsRejected')
+data.setCell(19, 2, 'booking.test.CreateBookingTests')
+data.setCell(19, 3, 939);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'CREATE_001_createBookingSuccessfully')
+data.setCell(20, 2, 'booking.test.CreateBookingTests')
+data.setCell(20, 3, 924);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'CREATE_006_missingBookingDatesIsRejected')
+data.setCell(21, 2, 'booking.test.CreateBookingTests')
+data.setCell(21, 3, 907);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'CREATE_003_validateAllBookingFields')
+data.setCell(22, 2, 'booking.test.CreateBookingTests')
+data.setCell(22, 3, 751);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'NEG_001_negativeBookingPriceIsRejected')
+data.setCell(23, 2, 'booking.test.NegativeBookingTests')
+data.setCell(23, 3, 747);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'NEG_002_zeroBookingPriceIsRejected')
+data.setCell(24, 2, 'booking.test.NegativeBookingTests')
+data.setCell(24, 3, 731);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'NEG_003_checkoutBeforeCheckinIsRejected')
+data.setCell(25, 2, 'booking.test.NegativeBookingTests')
+data.setCell(25, 3, 720);
+window.suiteTableData['Reservation_Hub_API_Regression']= { tableData: data, tableDiv: 'times-div-Reservation_Hub_API_Regression'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
+              <div id="times-div-Reservation_Hub_API_Regression">
+              </div> <!-- times-div-Reservation_Hub_API_Regression -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Reservation_Hub_API_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Reservation Hub API Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Reservation_Hub_API_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Reservation_Hub_API_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">booking.test.AuthTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupRequestSpecification</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">572 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AUTH_001_validCredentialsGenerateToken</span>
+                <span class="method-start">574 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">4322 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">AUTH_002_invalidCredentialsAreRejected</span>
+                <span class="method-start">5542 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">5542 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">6545 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">7571 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AUTH_003_putWithoutAuthenticationIsRejected</span>
+                <span class="method-start">7572 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">9260 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">10932 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AUTH_004_deleteWithInvalidTokenIsRejected</span>
+                <span class="method-start">10932 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">12783 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">booking.test.CreateBookingTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupRequestSpecification</span>
+                <span class="method-start">14810 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">14812 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CREATE_001_createBookingSuccessfully</span>
+                <span class="method-start">14812 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">15738 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">17585 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CREATE_002_createBookingSuccessfully</span>
+                <span class="method-start">17586 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">18629 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">20385 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CREATE_003_validateAllBookingFields</span>
+                <span class="method-start">20386 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">21138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">22809 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CREATE_004_missingFirstnameIsRejected</span>
+                <span class="method-start">22809 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">23957 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">24869 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CREATE_005_missingLastnameIsRejected</span>
+                <span class="method-start">24870 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">25813 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">26918 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CREATE_006_missingBookingDatesIsRejected</span>
+                <span class="method-start">26918 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">27828 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">booking.test.GetBookingTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupRequestSpecification</span>
+                <span class="method-start">28764 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">28765 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GET_001_retrieveExistingBooking</span>
+                <span class="method-start">28765 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">30927 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">33151 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GET_002_nonExistentBookingReturns404</span>
+                <span class="method-start">33151 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">34138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">35220 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GET_003_retrieveAllBookingIds</span>
+                <span class="method-start">35220 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">36495 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">37479 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GET_004_filterByFirstnameAndLastname</span>
+                <span class="method-start">37480 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">39815 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">booking.test.UpdateBookingTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupRequestSpecification</span>
+                <span class="method-start">41660 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">UPDATE_001_fullUpdateUsingPUT</span>
+                <span class="method-start">41661 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">41661 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">44578 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">46101 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UPDATE_002_partialUpdateUsingPATCH</span>
+                <span class="method-start">46102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">50289 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">52299 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UPDATE_003_putWithoutAuthenticationIsRejected</span>
+                <span class="method-start">52300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">54862 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">57222 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UPDATE_004_patchWithInvalidTokenIsRejected</span>
+                <span class="method-start">57223 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">59932 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">booking.test.DeleteBookingTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupRequestSpecification</span>
+                <span class="method-start">62040 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">62042 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DELETE_001_deleteExistingBooking</span>
+                <span class="method-start">62043 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">66043 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">67867 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DELETE_002_deletedBookingCannotBeRetrieved</span>
+                <span class="method-start">67868 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">72416 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">booking.test.NegativeBookingTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupRequestSpecification</span>
+                <span class="method-start">74340 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">74341 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">NEG_001_negativeBookingPriceIsRejected</span>
+                <span class="method-start">74341 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">75090 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">NEG_002_zeroBookingPriceIsRejected</span>
+                <span class="method-start">76499 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">76499 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">77232 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">NEG_003_checkoutBeforeCheckinIsRejected</span>
+                <span class="method-start">78937 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">78937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">79659 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">NEG_004_malformedBookingDatesAreRejected</span>
+                <span class="method-start">81603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">81603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">82966 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">booking.test.BookingContractTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupRequestSpecification</span>
+                <span class="method-start">85988 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">85990 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CONTRACT_001_validateCreateBookingResponse</span>
+                <span class="method-start">85991 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">86933 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeTestData</span>
+                <span class="method-start">88775 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CONTRACT_002_validateGetBookingResponse</span>
+                <span class="method-start">88776 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanupBookings</span>
+                <span class="method-start">90816 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

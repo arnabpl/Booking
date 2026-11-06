@@ -1,0 +1,40 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Reservation Hub API Regression"
+       verbose="2"
+       parallel="false">
+
+    <listeners>
+
+        <listener class-name=
+        "listeners.HealthCheckListener"/>
+
+        <listener class-name=
+        "listeners.ExtentReportListener"/>
+
+    </listeners>
+
+    <test name="Booking API Tests">
+
+        <classes>
+
+            <class name="booking.test.AuthTests"/>
+
+            <class name="booking.test.CreateBookingTests"/>
+
+            <class name="booking.test.GetBookingTests"/>
+
+            <class name="booking.test.UpdateBookingTests"/>
+
+            <class name="booking.test.DeleteBookingTests"/>
+
+            <class name="booking.test.NegativeBookingTests"/>
+
+            <class name="booking.test.BookingContractTests"/>
+
+        </classes>
+
+    </test>
+
+</suite>
